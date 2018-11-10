@@ -7,6 +7,8 @@ Group:       Development/Tools
 Packager:    MyungJoo Ham <myungjoo.ham@samsung.com>
 License:     Apache-2.0
 Source0:     gbs-tmpfs-%{version}.tar.gz
+Requires(post):  coreutils
+Requires(post):  libmount
 
 %description
 gbs-tmpfs creates tmpfs at /tmp for gbs build in order to
