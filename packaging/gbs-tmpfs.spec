@@ -2,12 +2,11 @@ Name:        gbs-tmpfs
 Summary:     Create tmpfs /tmp for faster I/O in gbs build
 Version:     1.0
 Release:     1rc1
+BuildArch:   noarch
 Group:       Development/Tools
 Packager:    MyungJoo Ham <myungjoo.ham@samsung.com>
 License:     Apache-2.0
 Source0:     gbs-tmpfs-%{version}.tar.gz
-
-Requires:    mount
 
 %description
 gbs-tmpfs creates tmpfs at /tmp for gbs build in order to
